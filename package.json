@@ -1,0 +1,24 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=app:* nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "excel4node": "^1.8.2",
+    "express": "^4.19.1",
+    "http-errors": "^2.0.0",
+    "mongodb": "^6.5.0",
+    "parse": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
