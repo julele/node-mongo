@@ -6,3 +6,5 @@ npm i -D nodemon
     "dev": "nodemon index.js"
 
 
+
+git push -u origin main

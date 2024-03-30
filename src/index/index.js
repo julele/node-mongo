@@ -6,9 +6,9 @@ module.exports.IndexAPI = (app) => {
   const router = express.Router()
   router.get('/',(req,res) =>{
     const menu = {
-      products: `htpps://${req.headers.host}/api/products`,
-      users: `htpps://${req.headers.host}/api/users`,
-      sales: `htpps://${req.headers.host}/api/sales`,
+      products: `https://${req.headers.host}/api/products`,
+      users: `https://${req.headers.host}/api/users`,
+      sales: `https://${req.headers.host}/api/sales`,
     }
     Response.success(res, 200,'API Inventario',menu)
   })
